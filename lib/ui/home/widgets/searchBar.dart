@@ -10,7 +10,6 @@ class SearchBar extends StatelessWidget {
       height: 35,
       color: Colors.white,
       child: TextField(
-        onEditingComplete: unfo,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(vertical: 5),
           prefixIcon: Icon(Icons.search),
