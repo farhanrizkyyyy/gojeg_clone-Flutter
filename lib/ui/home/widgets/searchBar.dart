@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class SearchBar extends StatelessWidget {
   const SearchBar({Key? key}) : super(key: key);
+  // static FocusNode fn = FocusNode();
 
   @override
   Widget build(BuildContext context) {
@@ -9,6 +10,7 @@ class SearchBar extends StatelessWidget {
       height: 35,
       color: Colors.white,
       child: TextField(
+        onEditingComplete: unfo,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(vertical: 5),
           prefixIcon: Icon(Icons.search),
