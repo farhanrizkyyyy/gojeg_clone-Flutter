@@ -29,12 +29,14 @@ class BannerBalance extends StatelessWidget {
                 size: 20,
               ),
               SizedBox(
-                height: 5,
+                height: 7,
               ),
               Text(
                 "Pay",
-                style:
-                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
@@ -47,12 +49,14 @@ class BannerBalance extends StatelessWidget {
                 size: 20,
               ),
               SizedBox(
-                height: 5,
+                height: 7,
               ),
               Text(
                 "Top Up",
-                style:
-                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
@@ -65,7 +69,7 @@ class BannerBalance extends StatelessWidget {
                 size: 20,
               ),
               SizedBox(
-                height: 5,
+                height: 7,
               ),
               Text(
                 "Explore",

@@ -26,7 +26,15 @@ class Balance extends StatelessWidget {
                 style: TextStyle(
                     fontWeight: FontWeight.bold, color: Colors.green.shade800),
               ),
-              Text("Rp. 1.000.000")
+              SizedBox(
+                height: 3,
+              ),
+              Text(
+                "Rp. 1.000.000",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ));
